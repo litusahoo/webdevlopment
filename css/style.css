@@ -40,14 +40,14 @@ background-color: hsl(233, 47%, 7%);
   left: 350px;
   background-color: hsl(244, 38%, 16%);
   width: 500px;
-  height: 500px;
+  height: 400px;
 }
 
 .inside-container2 {
   position: relative;
   left: 0;
   width: 500px;
-  height: 500px;
+  height: 400px;
   background-image: linear-gradient(to right, rgba(155, 47, 222, 0.70) 100%, rgba(0, 0, 255, 0.5) 100%),
     url("/webdevlopment/image/image-header-desktop.jpg");
 }
