@@ -1,0 +1,118 @@
+/* ***** tag selector **** */
+a {
+  color: hsl(228, 45%, 44%);
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 200;
+  color: hsl(0, 0%, 100%);
+  text-align: left;
+}
+
+p {
+  color: hsl(0, 0%, 100%, 0.75);
+  text-align: center;
+}
+
+span {
+  color: #eca3f5;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+
+/*   ***** class selector **** */
+/* .container{
+background-color: hsl(233, 47%, 7%);
+} */
+.row-1 {
+  margin-top: 150px;
+}
+
+.grid-1 {
+  position: relative;
+}
+
+.inside-container1 {
+  position: relative;
+  left: 350px;
+  background-color: hsl(244, 38%, 16%);
+  width: 400px;
+  height: 400px;
+}
+
+.inside-container2 {
+  position: relative;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  background-image: linear-gradient(to right, rgba(155, 47, 222, 0.70) 100%, rgba(0, 0, 255, 0.5) 100%),
+    url("/Users/Suman/Documents/webdevlopment/CARD-COMPONENT-project-2/image/image-header-desktop.jpg");
+}
+
+.numbers {
+  margin-left: 70px;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.75);
+  width: 20px;
+  padding-top: 50px;
+  display: inline-block;
+}
+
+.lorem {
+  width: 300px;
+  text-align: left;
+  margin-left: 70px;
+padding-top: 10px;
+}
+
+.lorem1 {
+  margin-left: 70px;
+padding-top: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: relative;
+  top: 600px;
+}
+
+@media screen and (max-width:1000px) {
+
+  .inside-container1 {
+    position: relative;
+    left: 10%;
+    background-color: hsl(244, 38%, 16%);
+    width: 400px;
+    height: 600px;
+top:400px;
+  }
+
+  .inside-container2 {
+    position: relative;
+    left: 10%;
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(to right, rgba(155, 47, 222, 0.70) 100%, rgba(0, 0, 255, 0.5) 100%),
+      url("/Users/Suman/Documents/webdevlopment/CARD-COMPONENT-project-2/image/image-header-desktop.jpg");
+bottom:600px;
+
+  }
+  .row-1 {
+    margin-top: 50px;
+  }
+  .numbers {
+    margin-left: 35%;
+    text-align: center;
+    color: hsla(0, 0%, 100%, 0.75);
+    width: 30px;
+    padding-top: 30px;
+   display: block;
+
+  }
+
+
+}
